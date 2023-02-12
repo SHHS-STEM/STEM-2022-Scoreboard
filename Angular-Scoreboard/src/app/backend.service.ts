@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 @Injectable()
 export class BackendService {
   constructor(private http: HttpClient) { }
-  path: String = "http://localhost:8080";
+  path: String = "http://192.168.0.200:8080";
 
   public getGreeting(name: String | null) {
     if (name == null) {

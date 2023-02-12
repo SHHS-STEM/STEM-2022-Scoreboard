@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.stem.Scoreboard.response.StringResponseObject;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @SpringBootApplication
 @RestController
 public class ScoreboardApplication {
