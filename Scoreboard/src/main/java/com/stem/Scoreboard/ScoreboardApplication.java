@@ -79,27 +79,27 @@ public class ScoreboardApplication {
 	}
 	
 	@PostMapping("/setVolleyball")
-	public void setVolleyball(VolleyballType temp) {
+	public void setVolleyball(@RequestBody VolleyballType temp) {
 		volleyball = temp;
 	}
 	
 	@PostMapping("/setSoccer")
-	public void setSoccer(SoccerType temp) {
+	public void setSoccer(@RequestBody SoccerType temp) {
 		soccer = temp;
 	}
 	
 	@PostMapping("/setRugby")
-	public void setRugby(RugbyType temp) {
+	public void setRugby(@RequestBody RugbyType temp) {
 		rugby = temp;
 	}
 	
 	@PostMapping("/setFootball")
-	public void setFootball(FootballType temp) {
+	public void setFootball(@RequestBody FootballType temp) {
 		football = temp;
 	}
 	
 	@PostMapping("/setBaseball")
-	public void setBaseball(BaseballType temp) {
+	public void setBaseball(@RequestBody BaseballType temp) {
 		baseball = temp;
 	}
 	
